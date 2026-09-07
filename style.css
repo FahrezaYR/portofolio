@@ -105,12 +105,6 @@ body {
   transition: 0.3s ease;
 }
 
-.link-youtube:hover { background: #FF2727; color: white; transform: translateY(-2px); }
-.link-facebook:hover { background: #3079FF; color: white; transform: translateY(-2px); }
-.link-instagram:hover { background: linear-gradient(90deg, #515bd4, #8134af, #dd2a7b, #feda77, #f58529); color: white; transform: translateY(-2px); }
-.link-tiktok:hover { background: linear-gradient(90deg, cyan, black, red); color: white; transform: translateY(-2px); }
-.link-dark:hover { background: black; color: white; transform: translateY(-2px); }
-
 .copyright-text {
   font-size: 1.1rem;
   font-weight: 500;
