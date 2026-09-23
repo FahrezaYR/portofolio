@@ -63,6 +63,7 @@ body {
   font-weight: 500;
   color: #555;
   text-align: center;
+  min-height: 2.5em;
 }
 
 #cursor { animation: blink 0.7s infinite; font-weight: bold; color: #0083b0; }

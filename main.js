@@ -3,7 +3,7 @@ const text = "Halo, semua! Perkenalkan, nama saya Fahreza Yurian Rastafara! Anak
 let index = 0;
 
 function typeEffect() {
-  if (index < text.length) {
+  if (document.getElementById('typing-text') && index < text.length) {
     document.getElementById('typing-text').textContent += text.charAt(index);
     index++;
     setTimeout(typeEffect, 50);
